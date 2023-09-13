@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import backIcon from '../images/icon-back.png';
+import backIcon from '../assets/images/icon-back.png';
 
 function Header({ title, back }) {
   return (

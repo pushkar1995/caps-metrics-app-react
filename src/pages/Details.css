@@ -1,0 +1,42 @@
+.detail__container {
+    display: flex;
+    flex-direction: column;
+    color: #ebebeb;
+}
+
+.detail__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3ea4b4;
+    padding: 1rem;
+    gap: 1rem;
+    text-align: end;
+}
+
+img {
+    height: 120px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0008;
+}
+
+h2 {
+    /* font-family: cursive; */
+    font-size: 26px;
+}
+
+.detail__description {
+    background-color: #3ea4b4;
+}
+
+p {
+    padding: 1rem;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+p:nth-child(odd) {
+    background-color: #2c93af;
+}

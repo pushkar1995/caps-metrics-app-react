@@ -6,7 +6,7 @@ import {
   getAllCountries,
   getRegion,
 } from '../../redux/countriesSlice/countriesSlice';
-import './Country.scss';
+import './Country.css';
 
 const Country = () => {
   const { countriesData, isLoading, region } = useSelector(

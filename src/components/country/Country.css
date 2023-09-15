@@ -1,0 +1,38 @@
+.country__list {
+    display: grid;
+    color: #ebebeb;
+    grid-template-columns: 1fr 1fr;
+}
+
+.country__container {
+    position: relative;
+    padding: 0.6rem;
+    background-color: #2c93af;
+}
+
+img {
+    height: 100px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.country__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto Slab', serif;
+    gap: 0.5rem;
+    color: #ebebeb;
+}
+
+.country__arrow {
+    font-size: 22px;
+    display: flex;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.country__container:nth-child(3n+1) {
+    background-color: #2c93af;
+}

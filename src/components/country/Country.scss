@@ -1,12 +1,12 @@
 .country__list {
     display: grid;
-    color: var(--white-color);
+    color: #ebebeb;
     grid-template-columns: 1fr 1fr;
 
     .country__container {
         position: relative;
         padding: 0.6rem;
-        background-color: var(--dark-secondary-color);
+        background-color: #2c93af;
 
         img {
             height: 100px;
@@ -33,6 +33,6 @@
     }
 
     .country__container:nth-child(3n+1) {
-        background-color: var(--secondary-color);
+        background-color: #2c93af;
     }
 }

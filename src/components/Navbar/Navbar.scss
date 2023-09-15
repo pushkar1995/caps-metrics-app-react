@@ -2,13 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--secondary-color);
-    color: var(--white-color);
+    background-color: #3ea4b4;
+    color: #ebebeb;
     padding: 1rem;
     box-shadow: 0 0 8px #000;
 
     .nav__link {
-        color: var(--white-color);
+        color: #ebebeb;
         font-size: 28px;
         cursor: pointer;
     }

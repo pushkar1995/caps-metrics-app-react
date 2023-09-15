@@ -1,0 +1,42 @@
+.detail__container {
+  display: flex;
+  flex-direction: column;
+  color: var(--white-color);
+
+  .detail__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    gap: 1rem;
+    text-align: end;
+
+    img {
+      height: 120px;
+      width: 200px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #0008;
+    }
+
+    h2 {
+      font-family: cursive;
+      font-size: 26px;
+    }
+  }
+
+  .detail__description {
+    background-color: var(--secondary-color);
+
+    p {
+      padding: 1rem;
+      font-size: 18px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    p:nth-child(odd) {
+      background-color: var(--dark-secondary-color);
+    }
+  }
+}

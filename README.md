@@ -60,9 +60,9 @@ This website will list the countries all over the world and you can filter the c
 
 <br>
 
-- [Link to My Video]()
+- [Link to My Video](https://www.loom.com/share/e26a40ddc69b4eeb9a3a1551cb3d1566)
 
-- [Click me to view deployed project!]()
+- [Click me to view deployed project!](https://countries-webapp-react-capstone-project.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

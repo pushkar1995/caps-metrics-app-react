@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Filter should match to snapshot 1`] = `
+<div
+  className="filter__container"
+>
+  <img
+    alt="World map"
+    height="150"
+    src="worldMap.png"
+    width="250"
+  />
+  <div>
+    <select
+      className="filter__select"
+      name="selected"
+      onChange={[Function]}
+    >
+      <option
+        defaultValue="Select Region"
+        hidden={true}
+      >
+        Select Region
+      </option>
+      <option
+        value="Asia"
+      >
+        Asia
+      </option>
+      <option
+        value="Oceania"
+      >
+        Oceania 
+      </option>
+      <option
+        value="Europe"
+      >
+         Europe 
+      </option>
+      <option
+        value="Americas"
+      >
+         Americas
+      </option>
+      <option
+        value="Africa"
+      >
+         Africa
+      </option>
+    </select>
+  </div>
+</div>
+`;

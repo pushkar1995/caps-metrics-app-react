@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { MdOutlineArrowBackIosNew } from 'react-icons/md';
 import { FaHome, FaSearch } from 'react-icons/fa';
 import { FiSettings } from 'react-icons/fi';
-// import './Navbar.css';
+import './Navbar.css';
 
 const Navbar = ({ title, back }) => (
   <>

@@ -1,7 +1,8 @@
 .country__list {
   display: grid;
   color: var(--white-color);
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.5fr 0.5fr;
+  overflow-x: hidden;
 
   .country__container {
     position: relative;

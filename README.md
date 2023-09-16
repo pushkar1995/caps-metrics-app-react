@@ -155,7 +155,10 @@ If you like my page please show your support and give this page a star!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 <br>
-To start with i would like to thank Nelson Sakwa on Behance who created the design of the app and was kind to share it in order for others to learn.
+
+I would like to thank 
+[Nelson Sakwa](https://www.behance.net/sakwadesignstudio) 
+for his amazing design on Behance who created the design of the app and was kind to share it in order for others to learn.
 
 
 <br>

@@ -1,0 +1,17 @@
+.filter__container {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--secondary-color);
+
+  .filter__select {
+    width: 140px;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 0.3rem;
+    box-shadow: 0 0 20px #00000062;
+    background-color: var(--dark-secondary-color);
+    color: var(--white-color);
+  }
+}

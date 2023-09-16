@@ -1,152 +1,16 @@
-@font-face {
-  font-family: Lato;
-  src: url(./assets/fonts/Lato-Regular.ttf);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto+Slab:wght@300;400;500&family=Roboto:wght@300;400;500;900&display=swap');
+
+:root {
+  --primary-color: #acdf87;
+  --secondary-color: #76ba1b;
+  --dark-secondary-color: #4c9a2a;
+  --white-color: #ebebeb;
 }
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-/* mobile version */
-body {
-  background: #fd5294;
-  font-family: Lato, sans-serif;
-}
-
-a {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
   text-decoration: none;
-}
-
-.filters {
-  margin: 5px 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-header {
-  background-color: #ed4c8b;
-  display: flex;
-  justify-content: space-between;
-}
-
-header > .lhead {
-  width: 40px;
-  height: 40px;
-}
-
-header > .thead {
-  height: 40px;
-  padding-top: 10px;
-}
-
-header > .rhead {
-  width: 40px;
-  height: 40px;
-}
-
-header > .thead > h1 {
-  text-align: center;
-  color: white;
-  font-size: 12pt;
-  margin: 0;
-}
-
-.lhead img {
-  margin: 5px;
-  width: 30px;
-  cursor: pointer;
-}
-
-.filters > button {
-  flex: 1 auto;
-  border: 0;
-  height: 30px;
-}
-
-.cards {
-  margin: 5px 0;
-  justify-content: space-between;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 2px;
-}
-
-.card {
-  width: 49.7%;
-  height: 190px;
-  background-color: #cf4278;
-  padding: 15px;
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  text-align: right;
-}
-
-.card > * {
-  flex: 1 auto;
-}
-
-.card .avatar img {
-  width: 100px;
-  margin-bottom: 10px;
-  opacity: 0.5;
-}
-
-.card-spec {
-  margin: 24px;
-  border-radius: 10px;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  background-color: #ed4c8b;
-  border: 1px solid silver;
-  padding: 20px;
-}
-
-legend {
-  background-color: white;
-  padding: 4px;
-  border-radius: 5px;
-}
-
-.card:first-child {
-  width: 100%;
-  display: flex;
-  text-align: left;
-}
-
-.card:first-child .desc {
-  padding-top: 15px;
-}
-
-.card:first-child .avatar img {
-  width: 150px;
-}
-
-ul li {
-  background-color: #ed4c8b;
-  border-top: 1px solid silver;
-  padding: 10px 5px;
-  margin: 24px;
-  list-style: none;
-}
-
-li p {
-  color: rgb(211, 207, 207);
-  font-size: 11pt;
-}
-
-li h3 {
-  color: white;
-}
-
-/* desktop version */
-@media (min-width: 600px) {
-  body {
-    background: green;
-  }
 }

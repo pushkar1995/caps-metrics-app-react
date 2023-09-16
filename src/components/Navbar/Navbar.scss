@@ -1,0 +1,26 @@
+.nav__div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  padding: 1rem;
+  box-shadow: 0 0 8px #000;
+
+  .nav__link {
+    color: var(--white-color);
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+  .nav__title {
+    font-family: "Montserrat", 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .nav__icons {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    justify-content: center;
+  }
+}

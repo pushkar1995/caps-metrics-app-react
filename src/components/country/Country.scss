@@ -1,0 +1,39 @@
+.country__list {
+  display: grid;
+  color: var(--white-color);
+  grid-template-columns: 0.5fr 0.5fr;
+  overflow-x: hidden;
+
+  .country__container {
+    position: relative;
+    padding: 0.6rem;
+    background-color: var(--dark-secondary-color);
+
+    img {
+      height: 100px;
+      width: 150px;
+      border-radius: 8px;
+    }
+
+    .country__content {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      font-family: 'Roboto Slab', serif;
+      gap: 0.5rem;
+      color: #ebebeb;
+    }
+  }
+
+  .country__arrow {
+    font-size: 22px;
+    display: flex;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+
+  .country__container:nth-child(3n+1) {
+    background-color: var(--secondary-color);
+  }
+}
